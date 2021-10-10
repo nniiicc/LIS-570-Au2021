@@ -16,10 +16,10 @@ It's helpful to think of this course a *survey* of research and evaluation in LI
 
 **Office hours**: Office hours with TA's are as follows:
 
-- Section A
-- Section B: Fridays from 2:00pm to 3:30pm; Zoom link: https://washington.zoom.us/j/96302233581; Meeting ID: 963 0223 3581
+- Section A: Yvette - Wednesdays 4-5pm (sign up using the directions on Canvas)
+- Section B: Kunsang - Wednesdays 3:00-4:00pm; Thursdays 4:00-5:00pm (sign up using the directions on Canvas)
 
-If you need to schedule a meeting with Dr. Weber use this [link](https://calendly.com/nmweber/15min).
+If you need to schedule a meeting with Dr. Weber use the calendly link found on your canvas site
 
 **Weekly Topics**
 <ul>
