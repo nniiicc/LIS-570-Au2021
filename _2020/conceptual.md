@@ -10,6 +10,8 @@ video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G7jmri-vJD8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Work?
+
 The slides for this week's lecture can be found [here](https://github.com/nniiicc/LIS-570-Au2020/raw/master/slides/LIS570-Au2020-Week2.pdf)
 
 **Week 2 - Conceptual Foundations**: At the heart of all research and evaluation tasks are assumptions about "how we know what we know" - So to begin the class we will discuss the idea of Epistemology and Ontology. We will relate these concepts to research paradigms and theories and (hopefully) develop an appreciation for why these concepts inform the selection of a research method in LIS. The [slides] for this week's lecture can be found [here](https://github.com/nniiicc/LIS-570-Au2020/raw/master/slides/LIS570-Au2020-Week2.pdf)

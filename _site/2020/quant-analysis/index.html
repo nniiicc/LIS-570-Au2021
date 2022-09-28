@@ -10,7 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="og:url" content="http://localhost:4000/2020/quant-analysis/">
+  <meta name="og:url" content="https://nniiicc.github.io/LIS-570-Au2021/2020/quant-analysis/">
   <meta property="og:site_name" content="LIS-570-Research-Assesment-And-Design">
 
   
@@ -27,8 +27,8 @@
     
   </title>
 
-  <link rel="stylesheet" href="/LIS-570-Au2020//static/css/main.css">
-  <link rel="stylesheet" href="/LIS-570-Au2020//static/css/syntax.css">
+  <link rel="stylesheet" href="/LIS-570-Au2021//static/css/main.css">
+  <link rel="stylesheet" href="/LIS-570-Au2021//static/css/syntax.css">
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
@@ -48,15 +48,13 @@
 
     <div id="nav-bg">
   <nav id="top-nav">
-    <a href="/LIS-570-Au2020/" id="logo">LIS 570</a>
+    <a href="/LIS-570-Au2021/" id="logo">LIS 570</a>
     <input type="checkbox" id="menu-icon">
     <label class="menu-label" for="menu-icon"></label>
     <div class="trigger">
       <div class="trigger-child">
-        <span class="nav-link"><a href="/LIS-570-Au2020/syllabus/">syllabus</a></span>
-        <span class="nav-link"><a href="/LIS-570-Au2020/assignments/">assignments</a></span>
-        <span class="nav-link"><a href="/LIS-570-Au2020/2020/">lectures</a></span>
-        <span class="nav-link"><a href="/LIS-570-Au2020/FAQs/">faq</a></span>
+        <span class="nav-link"><a href="/LIS-570-Au2021/2020/">lectures</a></span>
+        <span class="nav-link"><a href="/LIS-570-Au2021/FAQs/">faq</a></span>
       </div>
     </div>
   </nav>
@@ -68,12 +66,68 @@
 
 <p><strong>Week 7 + 8 - Quantitative Data Collection and Analysis</strong>: Quantitative methods are used less in LIS but play an important role in the design of program evaluation and assessment In Weeks 7 and 8 we will briefly discuss how to collect and obtain quantitative data, and how to use descriptive and inferential statistics to pursue a hypothesis.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/51jdQSZd6Yo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>The dataset described in the <code class="language-plaintext highlighter-rouge">standard deviation</code> section can be found <a href="https://docs.google.com/spreadsheets/d/1PjodnhmGnfkSY8BOUTGl1zMLJDxgZ3AeOOCvp2Kk-9w/edit?usp=sharing">here</a></p>
+
+<h2 id="lecture-notes">Lecture Notes</h2>
+
+<p>This week we are discussing the concept of analyzing data collected using quantitative methods. In the previous lecture we discussed how the process of data collection in a quantitative studies maps on to positivist logic and uses deduction. In short, I described that when we seek to answer a research question using quantitative methods we are testing hypothesis that confirm or deny an existing generalization. This fits squarely within our deductive logic framework - moving from generalizations about the world (e.g. theories that explain why or to what extent something is true) to specific observations that confirm or deny a generalization in a new context.</p>
+
+<p><img src="https://raw.githubusercontent.com/nniiicc/LIS-570-Au2020/master/images/inductiondeduction.jpg" alt="" /></p>
+
+<p>Analyzing data quantitatively means that we are seeking to confirm or deny or hypothesis. To do this, we are often measuring or estimating the effect of some observation. For example, lets assume we work in a public library and are interested in circulation of materials. We could state a hypothesis like:</p>
+
+<p>“The circulation of ebooks was greater in 2020 than in 2019.”</p>
+
+<p>This is confirmable and testable hypothesis - we need to have circulation records, including ebooks, for 2019 and 2020 in order to measure the difference between the two years.</p>
+
+<p>In this hypothesis (and the data we need to answer it) we picked out a <strong>variable</strong> of the data that we might collect. We picked out the ‘ebook’ circulation from the general circulation records. A variable, in this context, means that there is a discrete characteristic of our hypothesis that will <em>vary</em> - it will change from one observation to the next. This change is essentially what we want to control for or measure.</p>
+
+<p>eBook circulation is not just any kind of variable - it is a <strong>dependent variable</strong>. This means that the variation of ebook circulation rates will DEPEND upon some external factor - like the number of borrowers in a library, the number of ebooks that are available for check-out, the amount of time that lapses between checkouts, etc. These are all examples of <strong>independent variables</strong> - they occur or vary regularly and INDEPENDENT of our measurement of them. To make this point a little more concrete - a positivist doesn’t believe that time is a social construct - time happens whether or not we choose to measure it. Time exists OUTSIDE of or INDEPENDENT of our measurement of it. But, something like a circulation record is very much a choice - it is a measurement that we choose to collect. When we go to analyze our data then the measurement only takes on meaning if we have another variable that it can depend upon for context. Variations in circulation don’t really mean much unless we have a period of time in which we can reasonably compare one set of circulation records to another, right? So, we need both a dependent and an independent variable to meaningfully test our hypothesis.</p>
+
+<p>Beyond the comparison of data on simple terms - such as dependent and independent variables - we also have quantitive methods that we can use to test or report findings. In this class we’ll discuss just two:</p>
+
+<ol>
+  <li><strong>Descriptive statistics</strong> help us describe or show patterns that emerge in our data by giving a narrow definitions of phenomena - such as the average, the most frequent, or the least frequent data points in a study. Descriptive statistics don’t allow us to make firm conclusions, or fully support rejection / acceptance of hypotheses - they just describe. Another way to say this is that they are <strong>necessary</strong> for understanding a phenomenon, but not <strong>sufficient</strong> for an explanation of the phenomenon.</li>
+</ol>
+
+<p>There are two types of descriptive statistics:</p>
+<ul>
+  <li>
+    <p><strong>Central Tendency</strong> which means the description of data in terms of it’s central position (when distributed or graphed). Descriptive statistics like <code class="language-plaintext highlighter-rouge">Mean</code> (average), <code class="language-plaintext highlighter-rouge">median</code> (midpoint), or <code class="language-plaintext highlighter-rouge">mode</code> (most often) all describe a central tendency, or a frequency that we can use to describe what might be “normal” or “frequent” about a given set of data.</p>
+  </li>
+  <li>
+    <p><strong>Measures of spread</strong> is a descriptive statistic that gives a summary of how ‘spread out’ data are. A good example of this is <code class="language-plaintext highlighter-rouge">standard deviation</code>, or how normal it is for one data point to “deviate” from the normal central tendency.</p>
+  </li>
+</ul>
+
+<ol>
+  <li><strong>Inferential statistics</strong> are used to build knowledge about or predict things about data that belong to a sample. Remember, that when we create a sample we are saying that it is “representative” of a a larger group (the population). Inferential statistics can help us predict, suggest, or infer how representative that sample is of a population. This happens in two ways: 1. Estimating parameters or by 2. Testing hypothesis.</li>
+</ol>
+
 <h2 id="readings">Readings</h2>
-<p>Forthcoming</p>
+<p>You have two choices this week for readings - the first is primarily an overview of descriptive statistics, and the second is further reading in a book about quantitative methods.</p>
+
+<ul>
+  <li>
+    <p>Doucette, L. (2017). Quantitative Methods and Inferential Statistics: Capacity and Development for Librarians. Evidence Based Library and Information Practice, 12(2), 53-58. <a href="https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/28873/21388">PDF</a></p>
+  </li>
+  <li>
+    <p>Blaikie, N. (2003). Analyzing quantitative data: From description to explanation. Sage. <a href="https://github.com/nniiicc/LIS-570-Au2020/raw/master/readings/Week6/Blaikie.pdf">PDF</a> Continue to read Ch 1 from pages 28-36 - this covers analysis and logic of quantiative data, and also nicely summarizes the main points of the entire first chapter.</p>
+  </li>
+</ul>
 
 <p><strong>LIS Research Spotlight</strong></p>
+<ul>
+  <li>Harper, C. (2018). Machine Learning and the Library or: How I Learned to Stop Worrying and Love My Robot Overlords. Code4Lib Journal, (41), 6. <a href="https://journal.code4lib.org/articles/13671">HTML</a></li>
+</ul>
 
 <p><strong>Suggested</strong></p>
+
+<ul>
+  <li>Zhang, J., Wang, Y., &amp; Zhao, Y. (2017). Investigation on the statistical methods in research studies of library and information science. The Electronic Library. <a href="https://www.emerald.com/insight/content/doi/10.1108/EL-02-2016-0042/full/html">HTML</a> (This gives a great overview of how often and what kinds of statistics are used in LIS research)</li>
+</ul>
 
 <h2 id="exercise">Exercise</h2>
 <p>Forthcoming</p>
